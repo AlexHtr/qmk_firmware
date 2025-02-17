@@ -86,11 +86,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI, KC_LALT,                            KC_SPC,                             KC_RALT, MO(1),   KC_APP,  KC_RCTL,    KC_LEFT, KC_DOWN, KC_RGHT
     ),
     [1] = LAYOUT(
-	    EE_CLR,            KC_VOLD,  KC_VOLU,   KC_MUTE,    KC_MPLY,    KC_MYCM,    KC_WHOM,    KC_WFAV,    KC_CPNL,    KC_CALC,    KC_MAIL, KC_BRID,  KC_BRIU,      RGB_HUD,  RGB_TOG,   RGB_HUI,
-		NK_TOGG,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      _______,  RGB_MOD,   _______,
-		QK_BOOT,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      RGB_M_T,  RGB_M_SN,  RGB_M_X,
+	    EE_CLR,             KC_VOLD,  KC_VOLU,   KC_MUTE,    KC_MPLY,    KC_MYCM,    KC_WHOM,    KC_WFAV,    KC_CPNL,    KC_CALC,    KC_MAIL, KC_BRID,  KC_BRIU,      RGB_HUD,  RGB_TOG,   RGB_HUI,
+		QK_BOOT,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      _______,  RGB_MOD,   _______,
+		NK_TOGG,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      RGB_M_T,  RGB_M_SN,  RGB_M_X,
 		_______,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,           _______,
 		_______,            _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,           _______,                 RGB_VAI,
-		_______,  GU_TOGG,  _______,                                     _______,                                        _______,    _______, _______,  _______,      RGB_SPD,   RGB_VAD,  RGB_SPI
+		_______,  AG_LSWP,  AG_LNRM,                                     _______,                                        _______,    _______, GU_TOGG,  _______,      RGB_SPD,   RGB_VAD,  RGB_SPI
     )
 };
